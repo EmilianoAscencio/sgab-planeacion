@@ -1,26 +1,26 @@
 # Definición del Alcance
 
 ## Funcionalidades incluidas
-- Gestión de usuarios (alta, baja y consulta)
+- Autenticación básica con roles
+- Gestión de usuarios
 - Gestión de alumnos
 - Gestión de materias
 - Registro y consulta de calificaciones
-- Autenticación básica con roles
 
 ## Funcionalidades excluidas
+- Aplicaciones móviles
 - Pagos en línea
-- Aplicación móvil
-- Integraciones con plataformas externas
-- Reportes avanzados
+- Integración con sistemas externos
+- Reportes avanzados o analítica
 
 ## Suposiciones
-- El sistema se usará solo vía web.
-- Una sola institución utilizará el sistema.
+- El sistema será utilizado por una sola institución.
 - No se requiere alta disponibilidad.
+- El acceso será únicamente vía web.
 
 ## Ejemplo de cambio y su impacto
-**Cambio solicitado:** agregar reportes estadísticos de rendimiento académico.  
-**Impacto:** incremento del esfuerzo estimado, nuevos módulos y posible retraso en el proyecto.
+**Cambio solicitado:** agregar reportes estadísticos de desempeño académico.  
+**Impacto:** incremento del esfuerzo, nuevos módulos y aumento del tiempo de desarrollo.
 
 ## Ejemplo de Scope Creep
-Iniciar con la solicitud de “solo un reporte sencillo” puede derivar en dashboards completos, afectando tiempo, costo y calidad del proyecto.
+Solicitudes pequeñas no planeadas, como reportes adicionales o nuevas funcionalidades, pueden generar un crecimiento descontrolado del alcance si no se gestionan adecuadamente.

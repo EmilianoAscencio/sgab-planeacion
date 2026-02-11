@@ -1,30 +1,30 @@
 # Calidad del Software
 
-La calidad del software es fundamental para garantizar que el sistema cumpla su propósito y sea aceptado por los usuarios. Para el SGAB se consideran los siguientes atributos de calidad:
+La calidad del software es un factor crítico para garantizar que el sistema cumpla su propósito y sea aceptado por sus usuarios. En el contexto del SGAB, se priorizan los siguientes atributos de calidad:
 
 ## Usabilidad
-El sistema debe ser intuitivo y fácil de usar, ya que será utilizado por personas con distintos niveles de experiencia tecnológica.
+El sistema debe ser intuitivo y fácil de utilizar, permitiendo que los usuarios realicen sus tareas sin necesidad de capacitación extensa.
 
 **Justificación:**  
-Una buena usabilidad reduce errores de operación y disminuye la necesidad de capacitación.
+El sistema será utilizado por usuarios con distintos niveles de experiencia tecnológica. Una buena usabilidad reduce errores operativos y mejora la eficiencia del trabajo académico.
 
 **Consecuencias de no cumplirla:**  
-Interfaces confusas pueden provocar errores en la captura de calificaciones o rechazo del sistema por parte de los usuarios.
+Una interfaz confusa puede provocar errores en la captura de información y resistencia al uso del sistema.
 
 ## Seguridad
-El acceso a la información debe estar protegido mediante autenticación y control de permisos.
+El sistema debe garantizar que solo los usuarios autorizados accedan a la información correspondiente a su rol.
 
 **Justificación:**  
-El sistema maneja datos sensibles como calificaciones e información personal.
+El SGAB maneja información sensible, como datos personales y calificaciones, que debe ser protegida contra accesos no autorizados.
 
 **Consecuencias de no cumplirla:**  
-Accesos no autorizados podrían comprometer la privacidad de los alumnos y la integridad de la información.
+La falta de seguridad puede derivar en violaciones de privacidad y pérdida de confianza en el sistema.
 
 ## Confiabilidad
-El sistema debe funcionar de manera consistente y almacenar correctamente la información.
+El sistema debe operar de manera consistente y asegurar que la información almacenada sea correcta y persistente.
 
 **Justificación:**  
-La información académica debe ser precisa y persistente.
+La información académica debe mantenerse íntegra y disponible para evitar conflictos administrativos.
 
 **Consecuencias de no cumplirla:**  
-Pérdida de datos o errores en calificaciones afectarían directamente la confianza en el sistema.
+Errores o pérdida de datos afectarían directamente la credibilidad del sistema y de la institución.
